@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../images/logo.jpg');
+    background-size: cover;
+    background-position: center;   
+}
+
+form{
+    margin-top: 200px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+legend {
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+label {
+    display: inline;
+    font-size: 1em;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="password"],
+input[type="email"],
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    width: 67%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+/* Highlight input on focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus {
+    border: 1px solid #007bff;
+    outline: dashed;
+    box-shadow: 10px 10px;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1em;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: progress    ;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #b4c9e0;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="radio"] {
+    font-size: 1em;
+    transform: scale(1.5); /* Increase size by 1.5 times */
+    margin-right: 10px; /* Optional: add some space between radio button and label */
+}

@@ -1,0 +1,51 @@
+/* Header Styling */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 97%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Make sure the header stays on top */
+    height: 60px; /* Fixed height for the header */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo-img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header .logo span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li a:hover {
+    color: #ff5722;
+}

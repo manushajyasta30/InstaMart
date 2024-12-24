@@ -1,0 +1,95 @@
+/* Footer Styling */
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    height: 240px; /* Fixed height for the footer */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+footer .footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+
+footer .footer-section h2 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+footer .footer-section p, .footer-section ul {
+    color: #bbb;
+    line-height: 1.6;
+}
+
+footer .footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-section ul li {
+    margin: 5px 0;
+}
+
+footer .footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+footer .footer-section ul li a:hover {
+    color: #fff;
+}
+
+/* Social Media Icons */
+footer .footer-section .social-media ul {
+    display: flex;
+    gap: 15px;
+}
+
+footer .footer-section .social-media ul li a img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Contact Info */
+footer .footer-section .contact-info ul li a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+footer .footer-section .contact-info ul li a:hover {
+    color: #fff;
+}
+
+
+/* Footer Bottom */
+footer .footer-bottom {
+    background-color: #222;
+    color: #bbb;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer .footer-bottom a {
+    color: #bbb;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .footer-bottom a:hover {
+    color: #fff;
+}
